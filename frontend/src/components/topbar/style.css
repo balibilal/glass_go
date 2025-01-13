@@ -1,0 +1,77 @@
+.topbar{
+    background: #eee;
+    padding: 10px 30px;
+
+}
+
+.userdd{
+    position: absolute;
+    padding: 0px;
+    margin: 0px;
+    padding: 15px 0px;
+    cursor: pointer;
+    top: 40px;
+    right: -30px;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+.userdd::before{
+    content: "";
+    border: solid rgb(13, 104, 160) 13px;
+    border-left: solid transparent 13px;
+    border-right: solid transparent 13px;
+    border-top: solid transparent 13px;
+    position: absolute;
+    top: -26px;
+    right: 25px;
+}
+.userdd li{
+    list-style: none;
+    padding: 6px 15px;
+    cursor: pointer;
+}
+.notifydd{
+    position: absolute;
+    padding: 0px;
+    margin: 0px;
+    padding: 15px 0px;
+    cursor: pointer;
+    top: 40px;
+    right: -28px;
+    background-color: #f9f9f9;
+    min-width: 260px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+.notifydd::before{
+    content: "";
+    border: solid rgb(13, 104, 160) 13px;
+    border-left: solid transparent 13px;
+    border-right: solid transparent 13px;
+    border-top: solid transparent 13px;
+    position: absolute;
+    top: -26px;
+    right: 25px;
+}
+.notifydd li{
+    list-style: none;
+    padding: 6px 15px;
+    cursor: pointer;
+}
+.job-notify{
+    border-bottom: solid 2px #ddd;
+}
+
+
+
+.icons{
+    font-size: 20px;
+    cursor: pointer;
+}
+.icons:hover{
+    color: rgb(13, 104, 160);
+}
+
+
+
+

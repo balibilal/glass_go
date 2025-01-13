@@ -1,0 +1,16 @@
+.content {
+    background: #0a0a0a77;
+    position: absolute;
+    width: 100%;
+    left: 0;
+    top: 0;
+    height: 50rem;
+  }
+  .model{
+    position: relative;
+    background: white!important;
+    width: 50%;
+    margin: auto;
+    top: 10%;
+    height: auto;
+  }
